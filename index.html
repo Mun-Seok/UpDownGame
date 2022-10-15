@@ -4,16 +4,42 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>My First Project</title>
-        <link rel="stylesheet" href="./style.css" />
+        <title>pickNumberGame</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/style.css" />
     </head>
     <body>
-        <h1>First Project</h1>
-        <h1>Second Project</h1>
-        <h1>Third Project</h1>
-        <header></header>
-        <main></main>
-        <footer></footer>
-        <script src="./main.js"></script>
+        <div class="wrap">
+            <header id="headerIn">
+                <div class="header-logo">
+                    <a href="#">logo</a>
+                </div>
+            </header>
+            <main class="main">
+                <section class="main-user">
+                    <div class="input-area">
+                        <input type="number" id="userInput" />
+                        <button id="playButton">play</button>
+                    </div>
+                    <button id="resetButton">Reset</button>
+                </section>
+
+                <section class="main-result">
+                    <div class="result-text">Result :</div>
+                    <div id="resultArea">UP or DOWN</div>
+                </section>
+                <section class="main-chance">
+                    <div id="chanceArea">Chance: 7</div>
+                </section>
+                <section class="main-photo">
+                    <a href="#">up down image</a>
+                </section>
+            </main>
+            <footer id="footerIn"></footer>
+        </div>
+        <script src="./js/main.js"></script>
     </body>
 </html>

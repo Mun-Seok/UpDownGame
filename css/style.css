@@ -1,0 +1,114 @@
+@charset "utf-8";
+body {
+    background-color: #c8ffd4;
+}
+#wrap {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-width: 320px;
+    max-width: 420px;
+    margin: 0 auto;
+}
+/* #header-in */
+#header-in {
+    width: 100%;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #111;
+}
+.header-logo a {
+    display: block;
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url('https://www.updownarcadebar.com/wp-content/uploads/2018/08/updownblack.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    text-indent: -9999px;
+}
+/* .main */
+.main {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.input-area {
+    display: flex;
+    width: 100%;
+    height: 35px;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+#userInput {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#playButton {
+    width: 25%;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: #425f57;
+    color: white;
+}
+#resetButton {
+    display: block;
+    width: 50%;
+    height: 40px;
+    margin: 30px auto;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    background-color: #425f57;
+    color: white;
+}
+.main-result {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+.main-chance {
+    margin-bottom: 50px;
+    font-size: 1em;
+    text-align: center;
+}
+.result-text,
+#result_area,
+#chance-area {
+    margin-bottom: 10px;
+}
+.main-photo a {
+    display: block;
+    width: 100%;
+    height: 300px;
+    background-image: url('https://cdn-icons-png.flaticon.com/128/7601/7601533.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-indent: -99999px;
+}
+/* 모바일 끝 */
+/* 테블릿 시작 */
+@media (min-width: 768px) {
+    #wrap {
+        max-width: 1259px;
+    }
+    /* #header-in */
+    .header-logo a {
+        height: 400px;
+    }
+}
+/* 테블릿 끝 */
+/* PC 시작 */
+@media (min-width: 1260px) {
+    #wrap {
+        max-width: 1920px;
+        position: relative;
+    }
+}
