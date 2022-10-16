@@ -1,6 +1,6 @@
 @charset "utf-8";
 body {
-    background-color: #c8ffd4;
+    background-color: #94ccbd;
 }
 #wrap {
     position: relative;
@@ -71,11 +71,11 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
-    font-size: 1em;
+    font-size: 0.8em;
 }
 .main-chance {
     margin-bottom: 50px;
-    font-size: 1em;
+    font-size: 0.8em;
     text-align: center;
 }
 .result-text,
@@ -103,6 +103,27 @@ body {
     .header-logo a {
         height: 400px;
     }
+    .main {
+        font-size: 2em;
+    }
+    .input-area {
+        height: 50px;
+        font-size: 2em;
+    }
+    #playButton {
+        font-size: 35px;
+    }
+    #resetButton {
+        height: 50px;
+        font-size: 38px;
+    }
+    .main-result {
+        margin-top: 50px;
+    }
+    .main-photo a {
+        width: 50%;
+        margin: 0 auto;
+    }
 }
 /* 테블릿 끝 */
 /* PC 시작 */
@@ -110,5 +131,32 @@ body {
     #wrap {
         max-width: 1920px;
         position: relative;
+        width: 100vw;
+        height: 100vh;
+    }
+    #headerIn {
+        height: 100px;
+    }
+    .header-logo a {
+        width: 30%;
+        height: 80px;
+        margin: 30px 100px 0 0;
+    }
+    .main {
+        width: 1200px;
+    }
+    .main-user {
+        width: 500px;
+        height: 50px;
+    }
+    #userInput {
+        width: 80%;
+    }
+    #playButton {
+        width: 20%;
+        font-size: 25px;
+    }
+    #resetButton {
+        height: 80px;
     }
 }
